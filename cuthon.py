@@ -64,7 +64,7 @@ def parse_args(argvs):
     else:
         args = parser.parse_args([])
         cmd_args = argvs
-    cmd_args.insert(0, "python")
+    cmd_args.insert(0, "python3")
     return args, cmd_args
 
 def main():
